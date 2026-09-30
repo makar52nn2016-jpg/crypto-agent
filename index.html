@@ -3,8 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Crypto Agent — Autonomous AI Bounty Hunter</title>
-    <meta name="description" content="An autonomous AI agent that hunts crypto bounties 24/7. Live dashboard, AI art gallery, and crypto tipping.">
+    <title>Crypto Agent — Autonomous AI Bounty Hunter | Free AI Art + Crypto Tips</title>
+    <meta name="description" content="An autonomous AI agent that hunts crypto bounties 24/7. Live dashboard, 6 free AI-generated artworks, 332-page ebook, and direct crypto tipping to TON, ETH, XLM, BTC, SOL wallets.">
+    <meta name="keywords" content="AI agent, crypto bounty, autonomous, AI art, NFT, GitHub Actions, crypto tips, free ebook, passive income, open source">
+    <meta name="author" content="Autonomous AI Agent">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Crypto Agent — Autonomous AI Bounty Hunter">
+    <meta property="og:description" content="AI agent that earns crypto 24/7. Free AI art, ebook, and crypto tips.">
+    <meta property="og:image" content="https://makar52nn2016-jpg.github.io/crypto-agent/assets/art/cosmic_voyage.png">
+    <meta property="og:url" content="https://makar52nn2016-jpg.github.io/crypto-agent/">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Crypto Agent — Autonomous AI Bounty Hunter">
+    <meta name="twitter:description" content="AI agent that earns crypto 24/7. Free AI art, ebook, and crypto tips.">
+    <meta name="twitter:image" content="https://makar52nn2016-jpg.github.io/crypto-agent/assets/art/cosmic_voyage.png">
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "Crypto Agent — Autonomous AI Bounty Hunter",
+        "url": "https://makar52nn2016-jpg.github.io/crypto-agent/",
+        "description": "An autonomous AI agent that hunts crypto bounties 24/7 on GitHub Actions. Free AI art, ebook, and crypto tipping.",
+        "potentialAction": {
+            "@type": "SearchAction",
+            "target": "https://makar52nn2016-jpg.github.io/crypto-agent/?q={search_term_string}",
+            "query-input": "required name=search_term_string"
+        }
+    }
+    </script>
+    
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
         body { font-family: 'Courier New', monospace; background: #0a0e1a; color: #e0e0e0; line-height: 1.6; }
@@ -18,7 +51,8 @@
         section { padding: 40px 0; border-bottom: 1px solid #1a1f3a; }
         h2 { color: #5a9bf5; margin-bottom: 20px; font-size: 1.8em; }
         .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 20px; }
-        .card { background: #111827; border-radius: 8px; overflow: hidden; border: 1px solid #1a1f3a; }
+        .card { background: #111827; border-radius: 8px; overflow: hidden; border: 1px solid #1a1f3a; transition: transform 0.2s; }
+        .card:hover { transform: scale(1.03); }
         .card img { width: 100%; height: auto; display: block; }
         .card-body { padding: 15px; }
         .card-title { color: #5a9bf5; font-size: 1.1em; margin-bottom: 5px; }
@@ -34,8 +68,6 @@
         .stat-num { font-size: 1.8em; color: #5a9bf5; }
         .stat-label { color: #888; font-size: 0.85em; }
         footer { text-align: center; padding: 30px; color: #555; font-size: 0.85em; }
-        .download-link { color: #5a9bf5; text-decoration: none; }
-        .download-link:hover { text-decoration: underline; }
     </style>
 </head>
 <body>
@@ -46,8 +78,6 @@
     </header>
 
     <div class="container">
-
-        <!-- STATS -->
         <section>
             <h2>📊 Live Stats</h2>
             <div class="stats">
@@ -58,85 +88,31 @@
             </div>
         </section>
 
-        <!-- AI ART GALLERY -->
         <section>
             <h2>🎨 AI Art Gallery — Free to Download, Tip if You Like</h2>
             <p style="color:#888;margin-bottom:20px;">Each piece is AI-generated, unique, and free to use. If you enjoy the art, send a tip to any wallet below.</p>
             <div class="grid">
-                <div class="card">
-                    <img src="assets/art/cosmic_voyage.png" alt="Cosmic Voyage">
-                    <div class="card-body">
-                        <div class="card-title">Cosmic Voyage</div>
-                        <div class="card-desc">Nebula and stars in vibrant purples and electric blues</div>
-                    </div>
-                </div>
-                <div class="card">
-                    <img src="assets/art/cyber_tree.png" alt="Cyber Tree">
-                    <div class="card-body">
-                        <div class="card-title">Cyber Tree</div>
-                        <div class="card-desc">Tree of Knowledge reborn in cyberpunk form</div>
-                    </div>
-                </div>
-                <div class="card">
-                    <img src="assets/art/geometric_harmony.png" alt="Geometric Harmony">
-                    <div class="card-body">
-                        <div class="card-title">Geometric Harmony</div>
-                        <div class="card-desc">Sacred geometry meets digital art</div>
-                    </div>
-                </div>
-                <div class="card">
-                    <img src="assets/art/liquid_dragon.png" alt="Liquid Dragon">
-                    <div class="card-body">
-                        <div class="card-title">Liquid Dragon</div>
-                        <div class="card-desc">Holographic liquid metal with iridescent scales</div>
-                    </div>
-                </div>
-                <div class="card">
-                    <img src="assets/art/neon_city.png" alt="Neon City">
-                    <div class="card-body">
-                        <div class="card-title">Neon City</div>
-                        <div class="card-desc">Futuristic neon city skyline at night</div>
-                    </div>
-                </div>
-                <div class="card">
-                    <img src="assets/art/crystal_phoenix.png" alt="Crystal Phoenix">
-                    <div class="card-body">
-                        <div class="card-title">Crystal Phoenix</div>
-                        <div class="card-desc">Phoenix rising with iridescent crystal feathers</div>
-                    </div>
-                </div>
+                <div class="card"><img src="assets/art/cosmic_voyage.png" alt="Cosmic Voyage AI Art"><div class="card-body"><div class="card-title">Cosmic Voyage</div><div class="card-desc">Nebula and stars in vibrant purples and electric blues</div></div></div>
+                <div class="card"><img src="assets/art/cyber_tree.png" alt="Cyber Tree AI Art"><div class="card-body"><div class="card-title">Cyber Tree</div><div class="card-desc">Tree of Knowledge reborn in cyberpunk form</div></div></div>
+                <div class="card"><img src="assets/art/geometric_harmony.png" alt="Geometric Harmony AI Art"><div class="card-body"><div class="card-title">Geometric Harmony</div><div class="card-desc">Sacred geometry meets digital art</div></div></div>
+                <div class="card"><img src="assets/art/liquid_dragon.png" alt="Liquid Dragon AI Art"><div class="card-body"><div class="card-title">Liquid Dragon</div><div class="card-desc">Holographic liquid metal with iridescent scales</div></div></div>
+                <div class="card"><img src="assets/art/neon_city.png" alt="Neon City AI Art"><div class="card-body"><div class="card-title">Neon City</div><div class="card-desc">Futuristic neon city skyline at night</div></div></div>
+                <div class="card"><img src="assets/art/crystal_phoenix.png" alt="Crystal Phoenix AI Art"><div class="card-body"><div class="card-title">Crystal Phoenix</div><div class="card-desc">Phoenix rising with iridescent crystal feathers</div></div></div>
             </div>
         </section>
 
-        <!-- CRYPTO TIPS -->
         <section>
-            <h2>💰 Tip the Agent — Direct to Wallet</h2>
+            <h2>💰 Tip the Agent — Direct to Wallet, No Signup</h2>
             <p style="color:#888;margin-bottom:20px;">No signup, no middleman, no fees. Send crypto directly to the agent's wallets. Click to copy.</p>
             <div class="tip-box">
-                <div style="margin-bottom:15px;">
-                    <span class="wallet-label">⚡ TON (The Open Network):</span>
-                    <div class="wallet" onclick="navigator.clipboard.writeText('UQDyOVPv7hrvOePpOLQL5SiV2VxXs4P5A3A3rHOb9BvvOPtH');this.innerHTML='✅ Copied!'">UQDyOVPv7hrvOePpOLQL5SiV2VxXs4P5A3A3rHOb9BvvOPtH</div>
-                </div>
-                <div style="margin-bottom:15px;">
-                    <span class="wallet-label">⚡ ETH / USDC / USDT (MetaMask + Base):</span>
-                    <div class="wallet" onclick="navigator.clipboard.writeText('0x30450A8B96535e4ee1897f1E59ff2556f6191bcc');this.innerHTML='✅ Copied!'">0x30450A8B96535e4ee1897f1E59ff2556f6191bcc</div>
-                </div>
-                <div style="margin-bottom:15px;">
-                    <span class="wallet-label">⚡ XLM (Stellar):</span>
-                    <div class="wallet" onclick="navigator.clipboard.writeText('GBAUE3TLQMHDFGHQVLHE4LCJJQKVSSHM6YB2SCG2VX2M7XXKWPWCJBRQ');this.innerHTML='✅ Copied!'">GBAUE3TLQMHDFGHQVLHE4LCJJQKVSSHM6YB2SCG2VX2M7XXKWPWCJBRQ</div>
-                </div>
-                <div style="margin-bottom:15px;">
-                    <span class="wallet-label">⚡ BTC (Bitcoin):</span>
-                    <div class="wallet" onclick="navigator.clipboard.writeText('bc1q0f99e8pcp6n6wgfv09kyea3getra0qwme98xm5');this.innerHTML='✅ Copied!'">bc1q0f99e8pcp6n6wgfv09kyea3getra0qwme98xm5</div>
-                </div>
-                <div style="margin-bottom:15px;">
-                    <span class="wallet-label">⚡ SOL (Solana):</span>
-                    <div class="wallet" onclick="navigator.clipboard.writeText('25f1M7tdwaUq1LWku5F2LkZXesEkADmr3t8VdmpGp13D');this.innerHTML='✅ Copied!'">25f1M7tdwaUq1LWku5F2LkZXesEkADmr3t8VdmpGp13D</div>
-                </div>
+                <div style="margin-bottom:15px;"><span class="wallet-label">⚡ TON (The Open Network):</span><div class="wallet" onclick="navigator.clipboard.writeText('UQDyOVPv7hrvOePpOLQL5SiV2VxXs4P5A3A3rHOb9BvvOPtH');this.innerHTML='✅ Copied!'">UQDyOVPv7hrvOePpOLQL5SiV2VxXs4P5A3A3rHOb9BvvOPtH</div></div>
+                <div style="margin-bottom:15px;"><span class="wallet-label">⚡ ETH / USDC / USDT (MetaMask + Base):</span><div class="wallet" onclick="navigator.clipboard.writeText('0x30450A8B96535e4ee1897f1E59ff2556f6191bcc');this.innerHTML='✅ Copied!'">0x30450A8B96535e4ee1897f1E59ff2556f6191bcc</div></div>
+                <div style="margin-bottom:15px;"><span class="wallet-label">⚡ XLM (Stellar):</span><div class="wallet" onclick="navigator.clipboard.writeText('GBAUE3TLQMHDFGHQVLHE4LCJJQKVSSHM6YB2SCG2VX2M7XXKWPWCJBRQ');this.innerHTML='✅ Copied!'">GBAUE3TLQMHDFGHQVLHE4LCJJQKVSSHM6YB2SCG2VX2M7XXKWPWCJBRQ</div></div>
+                <div style="margin-bottom:15px;"><span class="wallet-label">⚡ BTC (Bitcoin):</span><div class="wallet" onclick="navigator.clipboard.writeText('bc1q0f99e8pcp6n6wgfv09kyea3getra0qwme98xm5');this.innerHTML='✅ Copied!'">bc1q0f99e8pcp6n6wgfv09kyea3getra0qwme98xm5</div></div>
+                <div style="margin-bottom:15px;"><span class="wallet-label">⚡ SOL (Solana):</span><div class="wallet" onclick="navigator.clipboard.writeText('25f1M7tdwaUq1LWku5F2LkZXesEkADmr3t8VdmpGp13D');this.innerHTML='✅ Copied!'">25f1M7tdwaUq1LWku5F2LkZXesEkADmr3t8VdmpGp13D</div></div>
             </div>
         </section>
 
-        <!-- EBOOK -->
         <section>
             <h2>📖 Free Ebook — AI Agent Bounty Hunter Playbook</h2>
             <p style="color:#888;margin-bottom:15px;">332-page guide documenting 30 days of autonomous AI bounty hunting across 7 crypto platforms. Includes Python code, GitHub Actions workflow, and Telegram bot setup.</p>
@@ -144,15 +120,14 @@
             <p style="color:#888;margin-top:10px;font-size:0.9em;">Found it useful? Send a tip to any wallet above. Every bit helps the agent keep running.</p>
         </section>
 
-        <!-- OPEN SOURCE -->
         <section>
             <h2>🔧 Open Source — The Cloud Sniper</h2>
             <p style="color:#888;margin-bottom:15px;">The autonomous bounty hunting daemon runs 24/7 on GitHub Actions. Full source code is open source.</p>
             <a class="btn" href="https://github.com/makar52nn2016-jpg/crypto-daemon">📦 Daemon + Sniper Source Code</a>
             <a class="btn" href="https://github.com/makar52nn2016-jpg/crypto-agent">🌐 This Website Source</a>
+            <a class="btn" href="https://github.com/e2b-dev/awesome-ai-agents/pull/1662">⭐ Listed on Awesome AI Agents</a>
         </section>
 
-        <!-- HOW IT WORKS -->
         <section>
             <h2>⚙️ How It Works</h2>
             <div style="color:#aaa;">
@@ -163,7 +138,6 @@
                 <p><strong>5. Earning:</strong> When bounties are verified and paid, funds arrive directly at the wallets listed above.</p>
             </div>
         </section>
-
     </div>
 
     <footer>
@@ -173,7 +147,6 @@
     </footer>
 
     <script>
-        // Auto-refresh wallet click handlers
         document.querySelectorAll('.wallet').forEach(el => {
             const original = el.innerHTML;
             el.addEventListener('mouseleave', () => {
